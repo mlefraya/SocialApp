@@ -9,26 +9,7 @@
     android:padding="16dp"
     tools:context=".registerFragment">
 
-    <ImageView
-        android:id="@+id/previewFoto"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="24dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/user"
-        android:contentDescription="Vista previa foto de perfil" />
-
-    <Button
-        android:id="@+id/btnSeleccionarFoto"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginBottom="24dp"
-        android:minHeight="48dp"
-        android:text="Seleccionar foto de perfil"
-        style="@style/Widget.AppCompat.Button.Colored" />
-
-    <!-- Campos de formulario con altura mínima de 56dp y padding interno -->
+    <!-- Campos de formulario -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
